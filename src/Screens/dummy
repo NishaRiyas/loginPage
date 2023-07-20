@@ -1,0 +1,43 @@
+    {/* <View style={styles.inputContainer}>
+        <Text style={styles.label}>UserName*</Text>
+        <View style={styles.inputRow}>
+          <TextInput
+            style={styles.input}
+            value={username}
+            onChangeText={(text) => setUsername(text)}
+          />
+          <MaterialIcons name="account-circle" style={styles.icon} size={20} color="white" />
+        </View>
+      </View>
+
+      <View style={styles.inputContainer}>
+        <Text style={styles.label}>Email ID*</Text>
+        <View style={styles.inputRow}>
+          <TextInput
+            style={[styles.input, !validEmail && styles.invalidInput]}
+            value={email}
+            onChangeText={handleEmailChange}
+          />
+          <FontAwesome name="search-minus" style={styles.icon} size={20} />
+        </View>
+        {!validEmail && email.length > 10 && <Text style={styles.errorText}>Invalid email</Text>}
+      </View>
+
+      <View style={styles.inputContainer}>
+        <Text style={styles.label}>Password*</Text>
+        <View style={styles.inputRow}>
+          <TextInput
+            style={styles.input}
+            secureTextEntry={!isPasswordVisible}
+            value={password}
+            onChangeText={(text) => setPassword(text)}
+          />
+          <MaterialIcons
+            name={isPasswordVisible ? 'visibility' : 'visibility-off'}
+            style={styles.icon}
+            size={20}
+            color="white"
+            onPress={() => setIsPasswordVisible(!isPasswordVisible)}
+          />
+        </View>
+      </View> */}
